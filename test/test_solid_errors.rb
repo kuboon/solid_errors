@@ -7,7 +7,10 @@ class TestSolidErrors < Minitest::Test
     refute_nil ::SolidErrors::VERSION
   end
 
-  def test_default_base_controller
-    assert_equal ActionController::Base, SolidErrors::ApplicationController.superclass
+  class TestDefaultBase < Minitest::Test
+    def test_setting
+      SolidErrors.base_controller_class = "ApplicationController"
+      assert_equal ApplicationController, SolidErrors::ApplicationController.superclass
+    end
   end
 end
