@@ -9,7 +9,8 @@ class TestSolidErrors < Minitest::Test
 
   class TestDefaultBase < Minitest::Test
     def test_setting
-      SolidErrors.base_controller_class = "ApplicationController"
+      # see dummy/config/initializers/solid_errors.rb
+      # SolidErrors.base_controller_class = "ApplicationController"
       assert_equal ApplicationController, SolidErrors::ApplicationController.superclass
     end
   end
