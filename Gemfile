@@ -7,5 +7,5 @@ gemspec
 
 gem "minitest", "~> 5.0"
 gem "standard", "~> 1.3"
-gem "sqlite3"
+gem "sqlite3", "< 2.6.0"
 gem "rake", "~> 13.0"
