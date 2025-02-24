@@ -27,21 +27,17 @@
 
 Solid Errors is a DB-based, app-internal exception tracker for Rails applications, designed with simplicity and performance in mind. It uses the new [Rails error reporting API](https://guides.rubyonrails.org/error_reporting.html) to store uncaught exceptions in the database, and provides a simple UI for viewing and managing exceptions.
 
-> [!WARNING]
-> The current point release of Rails (7.1.3.2) has a bug which severely limits the utility of Solid Errors. Exceptions raised during a web request *are not* reported to Rails' error reporter. There is a fix in the `main` branch, but it has not been released in a new point release. As such, Solid Errors is **not** production-ready unless you are running Rails from the `main` branch or until a new point version is released and you upgrade.
-> The original bug report can be found [here](https://github.com/rails/rails/issues/51002) and the pull request making the fix is [here](https://github.com/rails/rails/pull/51050). I will try to backport the fix into the gem directly, but I haven't quite figured it out yet.
-
-
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 ```bash
-$ bundle add solid_errors
+$ bundle add solid_errors --github "kuboon/solid_errors"
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 ```bash
-$ gem install solid_errors
+$ gem install specific_install
+$ gem specific_install kuboon/solid_errors
 ```
 
 After installing the gem, run the installer:
