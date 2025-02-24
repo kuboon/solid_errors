@@ -1,19 +1,19 @@
 # Solid Errors
 
 <p>
-  <a href="https://rubygems.org/gems/solid_errors">
+  <!-- <a href="https://rubygems.org/gems/solid_errors">
     <img alt="GEM Version" src="https://img.shields.io/gem/v/solid_errors?color=168AFE&include_prereleases&logo=ruby&logoColor=FE1616">
   </a>
   <a href="https://rubygems.org/gems/solid_errors">
     <img alt="GEM Downloads" src="https://img.shields.io/gem/dt/solid_errors?color=168AFE&logo=ruby&logoColor=FE1616">
-  </a>
+  </a> -->
   <a href="https://github.com/testdouble/standard">
     <img alt="Ruby Style" src="https://img.shields.io/badge/style-standard-168AFE?logo=ruby&logoColor=FE1616" />
   </a>
-  <a href="https://github.com/fractaledmind/solid_errors/actions/workflows/main.yml">
-    <img alt="Tests" src="https://github.com/fractaledmind/solid_errors/actions/workflows/main.yml/badge.svg" />
+  <a href="https://github.com/kuboon/solid_errors/actions/workflows/main.yml">
+    <img alt="Tests" src="https://github.com/kuboon/solid_errors/actions/workflows/main.yml/badge.svg" />
   </a>
-  <a href="https://github.com/sponsors/fractaledmind">
+  <!-- <a href="https://github.com/sponsors/fractaledmind">
     <img alt="Sponsors" src="https://img.shields.io/github/sponsors/fractaledmind?color=eb4aaa&logo=GitHub%20Sponsors" />
   </a>
   <a href="https://ruby.social/@fractaledmind">
@@ -21,7 +21,7 @@
   </a>
   <a href="https://twitter.com/fractaledmind">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/url?label=%40fractaledmind&style=social&url=https%3A%2F%2Ftwitter.com%2Ffractaledmind">
-  </a>
+  </a> -->
 </p>
 
 
