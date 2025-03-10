@@ -1,18 +1,17 @@
 <%# locals: (error:, show_actions: true) -%>
 
 <%= tag.section id: dom_id(error), class: "space-y-6" do %>
-  <div class="flex justify-between items-center">
-    <%= tag.h1 class: "font-bold flex items-center text-2xl gap-2" do %>
+  <div>
+    <%= tag.h1 class: "font-bold items-center text-2xl gap-2" do %>
       <%= error.severity_emoji %>
       <code><%= error.exception_class %></code>
       from
       <em><code><%= error.source %></code></em>
     <% end %>
-
-    <small class="text-base">
-      #<code><%= error.id %></code>
-    </small>
   </div>
+  <small class="text-base">
+    #<code><%= error.id %></code>
+  </small>
 
   <pre class="whitespace-pre-wrap"><%= error.message %></pre>
 
